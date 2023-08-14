@@ -1,0 +1,51 @@
+<!--<?xml version="1.0" encoding="UTF-8" ?>-->
+<!--<!DOCTYPE generatorConfiguration-->
+<!--        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"-->
+<!--        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">-->
+
+<!--<generatorConfiguration>-->
+<!--    &lt;!&ndash; 配置mysql 驱动jar包路径.用了绝对路径 &ndash;&gt;-->
+<!--    <classPathEntry-->
+<!--            location="C:\Environment\LocalRepository\mysql\mysql-connector-java\5.1.9\mysql-connector-java-5.1.9.jar" />-->
+
+<!--    <context id="DB2Tables" targetRuntime="MyBatis3">-->
+
+<!--        <commentGenerator>-->
+<!--            <property name="suppressAllComments" value="true" />-->
+<!--        </commentGenerator>-->
+
+<!--        &lt;!&ndash;配置数据库连接信息&ndash;&gt;-->
+<!--        <jdbcConnection driverClass="com.mysql.jdbc.Driver"-->
+<!--                        connectionURL="jdbc:mysql://localhost:3306/shop?useUnicode=true&amp;characterEncoding=utf-8&amp;zeroDateTimeBehavior=convertToNull"-->
+<!--                        userId="root"-->
+<!--                        password="123456">-->
+<!--        </jdbcConnection>-->
+
+<!--        <javaTypeResolver >-->
+<!--            <property name="forceBigDecimals" value="false" />-->
+<!--        </javaTypeResolver>-->
+
+<!--        <javaModelGenerator targetPackage="com.aba.pojo" targetProject=".\src\main\java">-->
+<!--            <property name="enableSubPackages" value="true" />-->
+<!--            <property name="trimStrings" value="true" />-->
+<!--        </javaModelGenerator>-->
+
+<!--        &lt;!&ndash;xml&ndash;&gt;-->
+<!--        <sqlMapGenerator targetPackage="mapper"  targetProject=".\src\main\resources">-->
+<!--            <property name="enableSubPackages" value="true" />-->
+<!--        </sqlMapGenerator>-->
+
+<!--        &lt;!&ndash;dao接口&ndash;&gt;-->
+<!--        <javaClientGenerator type="XMLMAPPER" targetPackage="com.aba.dao"  targetProject=".\src\main\java">-->
+<!--            <property name="enableSubPackages" value="true" />-->
+<!--        </javaClientGenerator>-->
+
+<!--        &lt;!&ndash;指定哪个表的生成策略，生成对应的表&ndash;&gt;-->
+<!--&lt;!&ndash;        <table tableName="indent" domainObjectName="Order"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <table tableName="activity" />&ndash;&gt;-->
+<!--&lt;!&ndash;        <table tableName="address" />&ndash;&gt;-->
+<!--&lt;!&ndash;        <table tableName="admin" />&ndash;&gt;-->
+<!--&lt;!&ndash;        <table tableName="chat" />&ndash;&gt;-->
+<!--&lt;!&ndash;        <table tableName="comment" />&ndash;&gt;-->
+<!--    </context>-->
+<!--</generatorConfiguration>-->
